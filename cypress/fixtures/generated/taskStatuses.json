@@ -1,0 +1,46 @@
+{
+  "name": "taskStatuses",
+  "data": [
+    {
+      "id": "de45cf2c-504b-47c0-ab78-e51314d53f36",
+      "name": "To Do",
+      "description": "To do",
+      "category": "open",
+      "color": "#696F8C",
+      "isDefault": true
+    },
+    {
+      "id": "8f75df48-ac7d-4405-bb9e-fc1bf6c43035",
+      "name": "Testing",
+      "description": "Test",
+      "category": "progress",
+      "color": "#C1C4D6",
+      "isDefault": false
+    },
+    {
+      "id": "e57ddc61-b352-46d0-9916-41cda7e5600b",
+      "name": "Reported",
+      "description": null,
+      "category": "progress",
+      "color": "#ED55C2",
+      "isDefault": false
+    },
+    {
+      "id": "2708e2c9-4372-4b5e-a220-5612ffec19d9",
+      "name": "In Progress",
+      "description": "In Progress",
+      "category": "progress",
+      "color": "#1371FE",
+      "isDefault": false
+    },
+    {
+      "id": "775cffa4-1e9a-473c-bd20-5197062b9d21",
+      "name": "Done",
+      "description": "Done",
+      "category": "closed",
+      "color": "#52BD94",
+      "isDefault": false
+    }
+  ],
+  "specialCases": null
+}

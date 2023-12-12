@@ -1,0 +1,83 @@
+{
+  "name": "import-csvs",
+  "data": [
+    {
+      "Status": "Online",
+      "Manufacturer": "PL PRO1",
+      "Model #": "MPC-6-BLACK",
+      "Product Name": "AVP MPC-6-Black Midsize 3G HD-SDI Video Patchcord - Black - 6 Foot",
+      "Serial #": "69309fd4-b02d-4add-afa0-41d8c44a2daf",
+      "Date Purchased": "10/5/2023",
+      "Purchase Price": "$12",
+      "Install Date": "10/6/2023",
+      "Extended Warranty Purchased": "TRUE",
+      "Vendor": "B&H",
+      "Department": "IT",
+      "Kit": "Standard",
+      "Location": "East London",
+      "Uncategorized": "Example",
+      "Unique Field": "76240024-c4f3-42d0-8a49-3e7efc5fbb25"
+    },
+    {
+      "Status": "Online",
+      "Manufacturer": "PL PRO-3",
+      "Model #": "Observação",
+      "Product Name": "islam",
+      "Serial #": "d4f99104-9e71-4bc5-96db-b46addc7f87f",
+      "Date Purchased": "10/5/2023",
+      "Purchase Price": "$12",
+      "Install Date": "10/6/2023",
+      "Extended Warranty Purchased": "FALSE",
+      "Vendor": "B&H",
+      "Department": "IT",
+      "Kit": "Standard",
+      "Location": "East London",
+      "Uncategorized": "Example",
+      "Unique Field": "1197e1a9-647a-4710-b5a2-2156236008c4"
+    },
+    {
+      "Status": "Online",
+      "Manufacturer": "PL PRO-4",
+      "Model #": "Observação",
+      "Product Name": "islam",
+      "Serial #": "a4d0f27b-38ff-4ca5-bcda-a104d307d7c0",
+      "Date Purchased": "10/5/2023",
+      "Purchase Price": "$12",
+      "Install Date": "10/6/2023",
+      "Extended Warranty Purchased": "FALSE",
+      "Vendor": "B&H",
+      "Department": "IT",
+      "Kit": "Standard",
+      "Location": "East London",
+      "Uncategorized": "Example",
+      "Unique Field": "016b43d9-e6bd-46c9-b60f-c68c434379b5"
+    }
+  ],
+  "specialCases": {
+    "validImport": {
+      "path": "generated/test-import-sheet-valid.csv",
+      "fileName": "test-import-sheet-valid"
+    },
+    "extraColumn": {
+      "path": "generated/test-import-sheet-extra-column.csv",
+      "fileName": "test-import-sheet-extra-column",
+      "columnName": "5Mk`uhS\"p]"
+    },
+    "invalidBooleanField": {
+      "path": "generated/test-import-sheet-invalid-boolean-field.csv",
+      "value": "invalid-boolean-value",
+      "fileName": "test-import-sheet-invalid-boolean-field"
+    },
+    "invalidAssetStatusField": {
+      "path": "generated/test-import-sheet-invalid-asset-status.csv",
+      "value": "QaadZj_MVakZuRinM8tUU",
+      "fileName": "test-import-sheet-invalid-asset-status"
+    },
+    "invalidUniqueField": {
+      "path": "generated/test-import-sheet-invalid-unique-field.csv",
+      "columnName": "Unique Field",
+      "fileName": "test-import-sheet-invalid-unique-field"
+    },
+    "extension": "csv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "id": "0004836a-ebc5-49ab-8fde-d7e626c9ffb2",
+      "name": "AVP",
+      "studio": null,
+      "products": "89",
+      "contacts": "0",
+      "resources": "0",
+      "documents": "0",
+      "status": null
+    }
+  ],
+  "specialCases": {
+    "identified": "0004836a-ebc5-49ab-8fde-d7e626c9ffb2"
+  },
+  "name": "manufacturers"
+}

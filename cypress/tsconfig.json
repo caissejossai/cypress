@@ -1,0 +1,25 @@
+{
+  "extends": "../tsconfig.paths.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "ES2015",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+
+    "types": ["cypress", "@testing-library/cypress"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["./**/*.ts", "../cypress.d.ts"],
+  "files": [
+    "../src/@types/window.d.ts",
+    "../src/@types/shared.ts",
+    "../src/@types/styled.d.ts",
+    "../src/@types/index.d.ts"
+  ],
+  "exclude": ["**/node_modules/**"]
+}

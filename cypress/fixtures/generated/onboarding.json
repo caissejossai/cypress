@@ -1,0 +1,63 @@
+{
+  "name": "onboarding",
+  "data": {
+    "files": [
+      {
+        "_id": "6571ce90a93148000590c317",
+        "name": "test_diff_lang_2023-12-07T13:54:23.823Z_5371cab8488408124666f97d2edfe4f8.csv",
+        "isManual": false,
+        "originalname": "test_diff_lang.csv",
+        "studioId": "874e68fa-093b-44d3-bfd6-947585c986ca",
+        "studioName": "BEAM Demo Studio",
+        "fileId": "5371cab8488408124666f97d2edfe4f8",
+        "mimetype": "text/csv",
+        "size": 103,
+        "totalItems": 1,
+        "unidentifiedItems": 1,
+        "identifiedItems": 0,
+        "requestItems": 0,
+        "inventoryItems": 0,
+        "discardedItems": 0,
+        "approxMatchItems": 0,
+        "pendingItems": 0,
+        "user": {
+          "triggeredBy": "Islam Ibrahim",
+          "triggeredByAvatar": "https://s.gravatar.com/avatar/478f404741a8f8c6e4e0de229e6e55dd?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fii.png",
+          "triggeredById": "caf3d227-3c8c-4ea0-9b58-85f364e125f9",
+          "triggeredByEmail": "islam@beamdynamics.io"
+        },
+        "headers": [
+          "Product Name",
+          "Manufacturer",
+          "Model #"
+        ],
+        "eta": 22,
+        "etaText": "9. Done",
+        "status": "validated",
+        "statusText": null,
+        "dateFormat": "MM/dd/yyyy",
+        "createdAt": "2023-12-07T13:54:24.814Z",
+        "updatedAt": "2023-12-07T13:55:14.998Z",
+        "__v": 0,
+        "importTime": "2023-12-07T13:55:14.997Z",
+        "uniqueAssetCounts": {
+          "totalItems": 1,
+          "identifiedItems": 0,
+          "unidentifiedItems": 1,
+          "requestItems": 0,
+          "inventoryItems": 0,
+          "discardedItems": 0,
+          "approxMatchItems": 0
+        }
+      }
+    ],
+    "assetsPerPage": 1,
+    "currentPage": 1,
+    "isLastPage": true,
+    "totalAssets": 1,
+    "totalPages": 1
+  },
+  "specialCases": {
+    "openOrValidatedFile": "6571ce90a93148000590c317"
+  }
+}
